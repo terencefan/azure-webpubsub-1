@@ -1,11 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./CodeInterview.scss";
+import "./App.scss";
 
 import { useEffect, useState } from "react";
 import { Container } from "./Container";
 import { Navigator } from "./Navigator";
 
-export function CodeInterview() {
+export function App() {
   const [language, setLanguage] = useState("Typescript");
   const [group, setGroup] = useState("");
   const [username, setUsername] = useState("");

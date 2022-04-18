@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { CodeInterview } from "./CodeInterview";
+import { App } from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CodeInterview />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

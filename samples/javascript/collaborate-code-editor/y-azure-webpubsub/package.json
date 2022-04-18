@@ -1,0 +1,23 @@
+{
+  "name": "y-azure-webpubsub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "buffer": "^6.0.3",
+    "lib0": "^0.2.49",
+    "uuid": "^8.3.2",
+    "y-protocols": "^1.0.5",
+    "yjs": "^13.5.34"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}

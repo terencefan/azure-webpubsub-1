@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "DOM",
+      "ESNext",
+      "ESNext.BigInt",
+    ],
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+  },
+  "include": [
+    "src",
+    "index.ts"
+  ]
+}
